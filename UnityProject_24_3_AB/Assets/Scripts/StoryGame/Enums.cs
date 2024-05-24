@@ -20,23 +20,14 @@ namespace STORYGAME
             NONE,
             GoToBattle = 100,
             CheckSTR = 1000,
-            CheckDEX,
-            CheckCON,
-            ChectINT,
-            CheckWIS,
-            CheckCHA
         }
 
         [System.Serializable]
         public enum ResultType
         {
-            ChangeHP,
-            ChangeSp,
-            AddExperience,
-            GoToShop,
+            ADDExpreience,
             GoToNextStory,
             GoToRandomStory,
-            GoToEnding
         }
 
 
