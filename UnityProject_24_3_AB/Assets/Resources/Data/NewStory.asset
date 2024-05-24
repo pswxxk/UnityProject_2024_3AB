@@ -16,4 +16,11 @@ MonoBehaviour:
   storyType: 0
   storyDone: 0
   storyText: 
-  options: []
+  options:
+  - optionText: 
+    buttonText: 
+    eventCheck:
+      checkValue: 0
+      evenType: 0
+      successResult: []
+      failResult: []

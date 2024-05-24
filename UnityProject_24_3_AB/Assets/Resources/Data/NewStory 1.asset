@@ -17,4 +17,25 @@ MonoBehaviour:
   storyType: 0
   storyDone: 0
   storyText: 
-  options: []
+  options:
+  - optionText: 
+    buttonText: 
+    eventCheck:
+      checkvalue: 0
+      eventtype: 0
+      sucessResult:
+      - resulttype: 4
+        value: 0
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
+      failResult: []
