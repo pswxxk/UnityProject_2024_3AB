@@ -12,20 +12,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb248ac9e2790464cad9a7faeb590659, type: 3}
   m_Name: NewStory 1
   m_EditorClassIdentifier: 
-  storyNumber: 0
-  mainImage: {fileID: 0}
+  storyNumber: 1
+  mainImage: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
   storyType: 0
   storyDone: 0
-  storyText: 
+  storyText: "\uD14C\uC2A4\uD2B8 \uBA54\uC138\uC9C0 \uD14C\uC2A4\uD2B8 \uBA54\uC138\uC9C0
+    \uD14C\uC2A4\uD2B8 \uBA54\uC138\uC9C0"
   options:
-  - optionText: 
-    buttonText: 
+  - optionText: "\uC120\uD0DD\uC9C01"
+    buttonText: "\uC120\uD0DD\uC9C01"
     eventCheck:
       checkvalue: 0
-      eventtype: 0
+      eventType: 0
       sucessResult:
-      - resulttype: 4
-        value: 0
+      - resultType: 0
+        value: 2
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
+      failResult: []
+  - optionText: "\uC120\uD0DD\uC9C02"
+    buttonText: "\uC120\uD0DD\uC9C02"
+    eventCheck:
+      checkvalue: 0
+      eventType: 0
+      sucessResult:
+      - resultType: 4
+        value: 2
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHpPoint: 0
+          currentSpPoint: 0
+          currentXpPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          Intelligence: 0
+          wisdom: 0
+          charisma: 0
+      failResult: []
+  - optionText: "\uC120\uD0DD\uC9C03"
+    buttonText: "\uC120\uD0DD\uC9C03"
+    eventCheck:
+      checkvalue: 0
+      eventType: 0
+      sucessResult:
+      - resultType: 4
+        value: 2
         stats:
           hpPoint: 0
           spPoint: 0

@@ -1,18 +1,17 @@
 using STORYGAME;
 using System.Collections;
 using System.Collections.Generic;
-using System.IO.Enumeration;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewStory" , menuName = "ScriptableObjects/StoryModel")]
+[CreateAssetMenu(fileName = "NewStroy", menuName = "ScriptableObjects/StoryModel")]
 public class StoryModel : ScriptableObject
 {
 
     public int storyNumber;
     public Texture2D mainImage;
 
-    public enum STORYTYPE 
-    { 
+    public enum STORYTYPE
+    {
         MAIN,
         SUB,
         SERIAL
@@ -24,13 +23,13 @@ public class StoryModel : ScriptableObject
     [TextArea(10, 10)]
     public string storyText;
 
-    public Option[] options;
+    public Option[] options;            //선택지 배열 
 
     [System.Serializable]
-    public class Option 
+    public class Option
     {
         public string optionText;
-        public string buttonText;
+        public string buttonText;       //선택지 버튼의 이름
 
         public EventCheck eventCheck;
     }
@@ -48,19 +47,20 @@ public class StoryModel : ScriptableObject
             CheckDEX,
             CheckCON,
             CheckINT,
-            CheckWLS,
+            CheckWIS,
             CheckCHA
         }
 
-        public EventType eventtype;
+        public EventType eventType;
 
-        public Result[] sucessResult;       //선택지에 대한 효과 배열
+        public Result[] sucessResult;           //선택지에 대한 효과 배열
         public Result[] failResult;
     }
+
     [System.Serializable]
-    public class Result                 //결과값 정보 데이터
+    public class Result                     //결과값 정보 데이터
     {
-        public enum ResultType: int
+        public enum ResultType : int
         {
             ChangeHp,
             ChangeSp,
@@ -70,7 +70,7 @@ public class StoryModel : ScriptableObject
             GoToRandomStory
         }
 
-        public ResultType resulttype;
+        public ResultType resultType;
         public int value;
         public Stats stats;
     }
