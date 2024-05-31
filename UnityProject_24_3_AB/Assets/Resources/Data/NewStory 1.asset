@@ -25,7 +25,7 @@ MonoBehaviour:
       checkvalue: 0
       eventType: 0
       sucessResult:
-      - resultType: 0
+      - resultType: 4
         value: 2
         stats:
           hpPoint: 0

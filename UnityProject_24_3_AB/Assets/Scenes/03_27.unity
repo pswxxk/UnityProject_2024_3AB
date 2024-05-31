@@ -1487,7 +1487,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1297531123}
-  - component: {fileID: 1297531122}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1495,34 +1494,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1297531122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297531121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b427619e860f764c9a545c6e70e5210, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stats:
-    hpPoint: 0
-    spPoint: 0
-    currentHpPoint: 0
-    currentSpPoint: 0
-    currentXpPoint: 0
-    strength: 0
-    dexterity: 0
-    consitiution: 0
-    Intelligence: 0
-    wisdom: 0
-    charisma: 0
-  currentState: 0
-  currentStoryIndex: 1
-  storyModels:
-  - {fileID: 11400000, guid: cd05236c75a18ee49af458bb62cfe65a, type: 2}
 --- !u!4 &1297531123
 Transform:
   m_ObjectHideFlags: 0
